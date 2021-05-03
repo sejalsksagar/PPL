@@ -1,6 +1,6 @@
 /**
- 03/05/21
- PPL Lab #1: 
+ * 03/05/21
+ * PPL Lab #1: 
 	Write a Java Program to perform Arithmetic operations of two complex
 	nos. (Addition, Subtraction, Multiplication and Division)
       
@@ -82,23 +82,23 @@ public class ComplexMain {
 	
 			switch(ch){
 				case 0: System.out.println("********** PROGRAM ENDED **********");
-				break;
+					break;
 		
 				case 1: R.add(A, B);
-						System.out.println(A.display()+" + "+B.display()+" = "+R.display());
-						break;
+					System.out.println(A.display()+" + "+B.display()+" = "+R.display());
+					break;
 		
 				case 2: R.subtract(A, B);
-						System.out.println(A.display()+" - ["+B.display()+"] = "+R.display());
-						break;
+					System.out.println(A.display()+" - ["+B.display()+"] = "+R.display());
+					break;
 		
 				case 3: R.multiply(A, B);
-						System.out.println("["+A.display()+"] x ["+B.display()+"] = "+R.display());
-						break;
+					System.out.println("["+A.display()+"] x ["+B.display()+"] = "+R.display());
+					break;
 				
 				case 4: R.divide(A, B);
-						System.out.println("["+A.display()+"] / ["+B.display()+"] = "+R.display());
-						break;
+					System.out.println("["+A.display()+"] / ["+B.display()+"] = "+R.display());
+					break;
 		
 				default: System.out.println("Invalid choice");
 			}
@@ -107,5 +107,4 @@ public class ComplexMain {
 		
 		sc.close();
 	}
-
 }
